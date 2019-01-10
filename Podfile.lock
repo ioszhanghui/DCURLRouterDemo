@@ -1,0 +1,16 @@
+PODS:
+  - DCURLRouter (0.81)
+
+DEPENDENCIES:
+  - DCURLRouter (~> 0.81)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DCURLRouter
+
+SPEC CHECKSUMS:
+  DCURLRouter: 6bb8d5c85390f5ce5a9966ad68e0e994a3e89b25
+
+PODFILE CHECKSUM: 0c175bd7b9ecddb3ab27ae61d19c314a53048007
+
+COCOAPODS: 1.5.3

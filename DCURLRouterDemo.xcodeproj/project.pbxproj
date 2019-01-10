@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CF4263138E9AC060E34DBDE /* libPods-DCURLRouterDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA764EF645693BD9F31F49DD /* libPods-DCURLRouterDemo.a */; };
+		F55928DC21E6EA8800D5C8B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F55928DB21E6EA8800D5C8B8 /* AppDelegate.m */; };
+		F55928DF21E6EA8800D5C8B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F55928DE21E6EA8800D5C8B8 /* ViewController.m */; };
+		F55928E221E6EA8800D5C8B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55928E021E6EA8800D5C8B8 /* Main.storyboard */; };
+		F55928E421E6EA8C00D5C8B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55928E321E6EA8C00D5C8B8 /* Assets.xcassets */; };
+		F55928E721E6EA8C00D5C8B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55928E521E6EA8C00D5C8B8 /* LaunchScreen.storyboard */; };
+		F55928EA21E6EA8C00D5C8B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F55928E921E6EA8C00D5C8B8 /* main.m */; };
+		F55928F121E6EB6900D5C8B8 /* DCURLRouter.plist in Resources */ = {isa = PBXBuildFile; fileRef = F55928F021E6EB6900D5C8B8 /* DCURLRouter.plist */; };
+		F55928F421E6ECE900D5C8B8 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F55928F321E6ECE900D5C8B8 /* TwoViewController.m */; };
+		F55928F721E6EE6D00D5C8B8 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F55928F621E6EE6D00D5C8B8 /* ThreeViewController.m */; };
+		F55928FA21E6F58000D5C8B8 /* NSString+Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = F55928F921E6F58000D5C8B8 /* NSString+Filter.m */; };
+		F55928FD21E6F71A00D5C8B8 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F55928FC21E6F71A00D5C8B8 /* FourViewController.m */; };
+		F559290021E713F700D5C8B8 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F55928FE21E713F700D5C8B8 /* WebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		711A1804C7CC2F733B70AA64 /* Pods-DCURLRouterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCURLRouterDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DCURLRouterDemo/Pods-DCURLRouterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CE20A32075555A417E031BDA /* Pods-DCURLRouterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCURLRouterDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DCURLRouterDemo/Pods-DCURLRouterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F55928D721E6EA8800D5C8B8 /* DCURLRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCURLRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55928DA21E6EA8800D5C8B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F55928DB21E6EA8800D5C8B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F55928DD21E6EA8800D5C8B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F55928DE21E6EA8800D5C8B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F55928E121E6EA8800D5C8B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F55928E321E6EA8C00D5C8B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F55928E621E6EA8C00D5C8B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F55928E821E6EA8C00D5C8B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55928E921E6EA8C00D5C8B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F55928F021E6EB6900D5C8B8 /* DCURLRouter.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DCURLRouter.plist; sourceTree = "<group>"; };
+		F55928F221E6ECE900D5C8B8 /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		F55928F321E6ECE900D5C8B8 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		F55928F521E6EE6D00D5C8B8 /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		F55928F621E6EE6D00D5C8B8 /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		F55928F821E6F58000D5C8B8 /* NSString+Filter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Filter.h"; sourceTree = "<group>"; };
+		F55928F921E6F58000D5C8B8 /* NSString+Filter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Filter.m"; sourceTree = "<group>"; };
+		F55928FB21E6F71A00D5C8B8 /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		F55928FC21E6F71A00D5C8B8 /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		F55928FE21E713F700D5C8B8 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		F55928FF21E713F700D5C8B8 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		FA764EF645693BD9F31F49DD /* libPods-DCURLRouterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DCURLRouterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F55928D421E6EA8800D5C8B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF4263138E9AC060E34DBDE /* libPods-DCURLRouterDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C39013EC3DD48A168E99AA41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE20A32075555A417E031BDA /* Pods-DCURLRouterDemo.debug.xcconfig */,
+				711A1804C7CC2F733B70AA64 /* Pods-DCURLRouterDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C74858777BA0E7D454D6A273 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA764EF645693BD9F31F49DD /* libPods-DCURLRouterDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F55928CE21E6EA8800D5C8B8 = {
+			isa = PBXGroup;
+			children = (
+				F55928D921E6EA8800D5C8B8 /* DCURLRouterDemo */,
+				F55928D821E6EA8800D5C8B8 /* Products */,
+				C39013EC3DD48A168E99AA41 /* Pods */,
+				C74858777BA0E7D454D6A273 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F55928D821E6EA8800D5C8B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F55928D721E6EA8800D5C8B8 /* DCURLRouterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F55928D921E6EA8800D5C8B8 /* DCURLRouterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F55928DA21E6EA8800D5C8B8 /* AppDelegate.h */,
+				F55928DB21E6EA8800D5C8B8 /* AppDelegate.m */,
+				F55928FF21E713F700D5C8B8 /* WebViewController.h */,
+				F55928FE21E713F700D5C8B8 /* WebViewController.m */,
+				F55928F821E6F58000D5C8B8 /* NSString+Filter.h */,
+				F55928F921E6F58000D5C8B8 /* NSString+Filter.m */,
+				F55928FB21E6F71A00D5C8B8 /* FourViewController.h */,
+				F55928FC21E6F71A00D5C8B8 /* FourViewController.m */,
+				F55928F521E6EE6D00D5C8B8 /* ThreeViewController.h */,
+				F55928F621E6EE6D00D5C8B8 /* ThreeViewController.m */,
+				F55928F221E6ECE900D5C8B8 /* TwoViewController.h */,
+				F55928F321E6ECE900D5C8B8 /* TwoViewController.m */,
+				F55928DD21E6EA8800D5C8B8 /* ViewController.h */,
+				F55928DE21E6EA8800D5C8B8 /* ViewController.m */,
+				F55928E021E6EA8800D5C8B8 /* Main.storyboard */,
+				F55928E321E6EA8C00D5C8B8 /* Assets.xcassets */,
+				F55928E521E6EA8C00D5C8B8 /* LaunchScreen.storyboard */,
+				F55928E821E6EA8C00D5C8B8 /* Info.plist */,
+				F55928F021E6EB6900D5C8B8 /* DCURLRouter.plist */,
+				F55928E921E6EA8C00D5C8B8 /* main.m */,
+			);
+			path = DCURLRouterDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F55928D621E6EA8800D5C8B8 /* DCURLRouterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55928ED21E6EA8C00D5C8B8 /* Build configuration list for PBXNativeTarget "DCURLRouterDemo" */;
+			buildPhases = (
+				97C6C430A3B181F92EF9756C /* [CP] Check Pods Manifest.lock */,
+				F55928D321E6EA8800D5C8B8 /* Sources */,
+				F55928D421E6EA8800D5C8B8 /* Frameworks */,
+				F55928D521E6EA8800D5C8B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCURLRouterDemo;
+			productName = DCURLRouterDemo;
+			productReference = F55928D721E6EA8800D5C8B8 /* DCURLRouterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F55928CF21E6EA8800D5C8B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Gome;
+				TargetAttributes = {
+					F55928D621E6EA8800D5C8B8 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = F55928D221E6EA8800D5C8B8 /* Build configuration list for PBXProject "DCURLRouterDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F55928CE21E6EA8800D5C8B8;
+			productRefGroup = F55928D821E6EA8800D5C8B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F55928D621E6EA8800D5C8B8 /* DCURLRouterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F55928D521E6EA8800D5C8B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55928E721E6EA8C00D5C8B8 /* LaunchScreen.storyboard in Resources */,
+				F55928E421E6EA8C00D5C8B8 /* Assets.xcassets in Resources */,
+				F55928F121E6EB6900D5C8B8 /* DCURLRouter.plist in Resources */,
+				F55928E221E6EA8800D5C8B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97C6C430A3B181F92EF9756C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DCURLRouterDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F55928D321E6EA8800D5C8B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55928FD21E6F71A00D5C8B8 /* FourViewController.m in Sources */,
+				F55928DF21E6EA8800D5C8B8 /* ViewController.m in Sources */,
+				F55928EA21E6EA8C00D5C8B8 /* main.m in Sources */,
+				F559290021E713F700D5C8B8 /* WebViewController.m in Sources */,
+				F55928DC21E6EA8800D5C8B8 /* AppDelegate.m in Sources */,
+				F55928FA21E6F58000D5C8B8 /* NSString+Filter.m in Sources */,
+				F55928F421E6ECE900D5C8B8 /* TwoViewController.m in Sources */,
+				F55928F721E6EE6D00D5C8B8 /* ThreeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F55928E021E6EA8800D5C8B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55928E121E6EA8800D5C8B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F55928E521E6EA8C00D5C8B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55928E621E6EA8C00D5C8B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F55928EB21E6EA8C00D5C8B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F55928EC21E6EA8C00D5C8B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F55928EE21E6EA8C00D5C8B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE20A32075555A417E031BDA /* Pods-DCURLRouterDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVSEF92325;
+				INFOPLIST_FILE = DCURLRouterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Gome.DCURLRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F55928EF21E6EA8C00D5C8B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711A1804C7CC2F733B70AA64 /* Pods-DCURLRouterDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVSEF92325;
+				INFOPLIST_FILE = DCURLRouterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Gome.DCURLRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F55928D221E6EA8800D5C8B8 /* Build configuration list for PBXProject "DCURLRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55928EB21E6EA8C00D5C8B8 /* Debug */,
+				F55928EC21E6EA8C00D5C8B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55928ED21E6EA8C00D5C8B8 /* Build configuration list for PBXNativeTarget "DCURLRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55928EE21E6EA8C00D5C8B8 /* Debug */,
+				F55928EF21E6EA8C00D5C8B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F55928CF21E6EA8800D5C8B8 /* Project object */;
+}
